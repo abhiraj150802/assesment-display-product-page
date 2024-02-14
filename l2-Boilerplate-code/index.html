@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Display</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <div class="heading">
+   <p> Select your choice</p>
+  </div>
+  <div class="parent-tab">
+    <div class="tab-container">
+      <button class="tab" onclick="showProducts('men')"><i class="fas fa-user"></i>Men</button>
+      <button class="tab" onclick="showProducts('women')"><i class="fas fa-female"></i>Women</button>
+      <button class="tab" onclick="showProducts('kids')"><i class="fas fa-child"></i>Kids</button>
+    </div>
+  </div>
+  
+  <div id="productContainer" class="product-container">
+    <!-- Product cards will be dynamically added here -->
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
